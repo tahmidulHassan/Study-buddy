@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+p {
+    font-family: "Nunito", Serif;
+    font-size: 18px;
+    line-height: 26px;
+    color:#000000;
+    l
+}
 
 body {
   font-family: "Roboto Slab", serif ;
@@ -64,6 +71,16 @@ h1 {
     l
 }
 
+.section-heading h2 {
+    font-size: 52px;
+    line-height: 60px;
+    margin-bottom: 16px;
+    color: #1D3970;
+}
+ #Benefits .card h4{
+    font-size: 28px;
+    padding-bottom: 16px;
+}
 .btn-container{
     margin-top: 30px ; 
     display: flex;
@@ -88,3 +105,70 @@ h1 {
     font-size: 18px;
     border-radius: 16px;
 }
+
+ .section-heading{
+    max-width: 648px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#Benefits{
+   
+    max-width: 1312px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+}
+
+
+
+.card-container{
+    max-width: 1312px;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#Benefits .card{
+  
+    background-color: #fff;
+    max-width: 417px;
+    box-shadow: 0 6px 10px 0 rgba(200, 200, 200, 0.22);
+    border-radius: 16px;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+#Benefits .card-container .card .icon{
+    
+    border: 1px solid #FF4F03 ;
+    border-radius: 16px ;
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+/* #benefits {
+    padding-top: 100px;
+}
+
+#benefits .benefits-container {
+  width: 1312px;
+  margin: 0 auto;
+}
+
+#benefits .benefits-container .card-box {
+    display: flex;
+    gap: 30px;
+}
+
+.card-box .card {
+   padding: 30px;
+   box-shadow: 0 6px 10px 0 rgba(200, 200, 200, 0.22);
+   max-width: 417px;
+
+} */
