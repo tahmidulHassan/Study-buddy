@@ -8,7 +8,7 @@ p {
     font-size: 18px;
     line-height: 26px;
     color:#000000;
-    l
+
 }
 
 body {
@@ -68,7 +68,6 @@ h1 {
     line-height: 68px;
     margin-bottom: 16px;
     color:#1D3970;
-    l
 }
 
 .section-heading h2 {
@@ -122,8 +121,6 @@ h1 {
   
 }
 
-
-
 .card-container{
     max-width: 1312px;
     margin: 0 auto;
@@ -152,23 +149,37 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* #benefits {
-    padding-top: 100px;
-}
-
-#benefits .benefits-container {
-  width: 1312px;
-  margin: 0 auto;
-}
-
-#benefits .benefits-container .card-box {
+#how-it-works {
+    background-color: #F9F9FA ;
+    max-width: 1320px;
+    margin: 0 auto;
+    border-radius: 36px;
+    padding: 100px;
     display: flex;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.card-box .card {
-   padding: 30px;
-   box-shadow: 0 6px 10px 0 rgba(200, 200, 200, 0.22);
-   max-width: 417px;
+#how-it-works .section-heading {
+    text-align: left;
+    margin: 0;
+    max-width: 526PX;
+}
+.steps{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+ .step-item{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
 
-} */
+.number{
+    border: 1px solid #FF4F03 ;
+    padding: 12px;
+    gap: 16px;
+    border-radius: 8px;
+    color: #FF4F03;
+}
