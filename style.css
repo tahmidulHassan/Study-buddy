@@ -183,3 +183,30 @@ h1 {
     border-radius: 8px;
     color: #FF4F03;
 }
+
+#footer-container {
+    margin-top: 100px;
+    background-color: #1D3970 ;
+    padding: 100px;
+}
+
+.footer-top {
+    max-width: 588px ;
+    margin: 0 auto ;
+    text-align: center;
+}
+.footer-bottom{
+    padding-top: 60px ;
+    display: flex;             
+    justify-content: space-between; 
+    align-items: center;     
+}
+#footer-container p {
+    color: #FFFFFF ;
+}
+
+#footer-container li {
+    color: #FFFFFF ;
+    text-align: center;
+     align-items: center;
+}
