@@ -23,7 +23,7 @@ body {
 .nav-container{
     max-width: 1312px;
     margin: 0 auto;
-    padding: 16px 24px;
+    padding: 16px ;
 
     display: flex;
     align-items: center;
@@ -209,4 +209,13 @@ h1 {
     color: #FFFFFF ;
     text-align: center;
      align-items: center;
+}
+
+.login-bar{
+    background-color: #FF4F03;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
 }

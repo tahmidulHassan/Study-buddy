@@ -8,43 +8,82 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <title>login</title>
+    <title>Login | AI Study Buddy</title>
 </head>
 <body>
-    <section>
-                <h2>
+    <p class="login-bar">Discover Top-notch Services from Verified Professionals</p>
+              <!-- <section>
                     <form action="">
-                        <label for="name">Your name</label>
-                        <input type="text" name="" id="name">
 
-                        <label for="email">Your email</label>
-                        <input type="text" name="" id="email">
+                        <h3>Log In to AI Study Buddy</h3>
+                       
+                        <label for="email">Email Address/ Username</label>
+                        <input type="text" name="" id="email" placeholder="Email Address/ Username">
 
-                        <label for="">Phone number</label>
-                        <input type="text" name="" id="phone">
+                        <label for="password">Password</label>
+                        <input type="password" name="" id="password" placeholder="Password">
 
-                        <fieldset>
-                            <legend>Study Program</legend>
-                            <input type="radio" name="bsc" id="Masters">
-                            <label for="Masters">Student</label>
-
-                            <input type="radio" name="bsc" id="phd">
-                            <label for="phd">Phd</label>
-                        </fieldset>
-            
-                        
-                        <label for="">Message</label>
-                        <textarea cols="50" name="" id=""></textarea>
-
-                         <fieldset>
-                            <input type="checkbox" name="" id="t&c">
-                            <label for="t&c"> I aggree to terms and conditions</label>
-                        </fieldset>
-
-                        <input type="submit" value="submit">]
-                        <input type="reset" value="reset">
+                        <button class="Hero-primary-btn">Login</button>
+                        <p>Don’t have  an Account? <span></span></p>
+                        <a href="Registration.html">Signup</a>
+                        <h5>Or</h5>
+                        <a href="mail.google.com"><img src="image/google-color.png" alt=""></a>
+                
                     </form>
-                </h2>
+                    <img src="image/studyAi.jpg" alt="login-image">
+            </section> -->
+        <main>
+            <section class="login-section">
+                <form action="#" method="post" aria-labelledby="login-title">
+                    <h3 id="login-title">Log In to AI Study Buddy</h3>
+
+                    <div class="form-group">
+                        <label for="email">Email Address/ Username</label>
+                        <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Email Address or Username"
+                        required
+                        autocomplete="username"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input 
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Password"
+                        required
+                        autocomplete="current-password"
+                        >
+                    </div>
+                    <button type="submit" class="Hero-primary-btn">Login</button>
+
+                    <p class="signup-text">Don't have an account? <a href="Registration.html">Sign Up</a> </p>
+
+                    <div class="divider">
+                        <span>Or</span>
+                    </div>
+
+                    <a 
+                    href="https://accounts.google.com/signin" 
+                    class="google-login"
+                    aria-label="Login with Google"
+                    >
+                        <img src="image/google-color.png" alt="Google Logo">
+                    </a>
+
+                    <figure class="login-image">
+                     <img 
+                            src="image/studyAi.jpg" 
+                            alt="Student studying with AI assistance"
+                     >
+                    </figure>
+                </form>
             </section>
+        </main>
 </body>
 </html>
